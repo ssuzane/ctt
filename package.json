@@ -1,0 +1,21 @@
+{
+    "name": "fecafconnect",
+    "version": "1.0.0",
+    "description": "Banco de dados simples para teste de backend durante as aulas",
+    "main": "api/server.js",
+    "scripts": {
+      "start": "node api/server.js"
+    },
+    "keywords": [
+      "json-server,heroku, node, REST API"
+    ],
+    "author": "Fernando Leonid",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.19.2",
+      "json-server": "^0.17.4",
+      "mysql2": "^3.10.0",
+      "nodemon": "^3.1.3",
+      "uuid": "^9.0.1"
+    }
+  }

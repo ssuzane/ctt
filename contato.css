@@ -1,0 +1,118 @@
+*{
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body{
+    background-color: #CAB4E5;
+}
+
+main{
+    background-color: #D9D9D9;
+    height: 729px;
+    width: 1243px;
+    position: absolute;
+    left: 60px;
+    top: 150px;
+    
+}
+
+header{
+    justify-content: center;
+    display: flex;
+}
+.bordaRoxa{
+    background-color: #7A6BA4;
+    height: 107px;
+    width: 486px;
+    border-radius: 5px;
+}
+
+.bordaRoxa h1{
+    color: black;
+    font-family: 'Josefin Sans',  sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.infos{
+    background-color: #665989;
+    height: 635px;
+    width: 384px;
+    position: absolute;
+    left: 150svh;
+    bottom: 90px;
+
+}
+
+.infos input{
+    height: 54px;
+    width: 238px;
+    margin-top: 30px;
+    margin-left: 55px;
+    border-radius: 5px;
+}
+
+.infos p{
+    position: absolute;
+    left: 55px;
+    color: #d3c9ee;
+}
+
+.infos button{
+    height: 70px;
+    width: 262px;
+    background-color: #7A6BA4;
+
+    position: absolute;
+    bottom: 30px;
+    margin-left: 50px;
+}
+
+.status{
+    width: 100%;
+    user-select: none;
+    text-align: left;
+    background-color: #ebe3ff;
+}
+
+.status th{
+    height: 50px;
+    padding-left: 20px;
+    font-size: 1.2rem;    
+}
+.status td{
+    height: 50px;
+    padding-left: 20px;
+}
+
+.status th:last-child,
+.status td:last-child{
+    padding: 0;
+    min-width: 140px;
+    text-align: center;
+}
+
+.salvar{
+    background-color: aqua;
+    right: 50px;
+    width: 40px;
+}
+
+.cancelar{
+   
+    top: 450px;
+    right: 50px;
+}
+
+.cadastrocss{
+    background-color: #9b90ff;
+    position: absolute;
+    left: 165svh;
+    top: 40px;
+    height: 50px;
+   
+}
+
